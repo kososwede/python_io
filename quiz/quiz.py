@@ -25,7 +25,7 @@ def ask_questions():
     score = 0
 
     for question, answer in questions_and_answers:
-        guess = input(question.lower() + '> ')
+        guess = input(question + '> ')
         if guess == answer:
             score += 1
             print('right!')
